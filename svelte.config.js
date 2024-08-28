@@ -25,9 +25,10 @@ export default {
     adapter:
       process.env.ADAPTER
         ? adapter[process.env.ADAPTER.toLowerCase()]
-        : Object.keys(process.env).some(key => ['VERCEL', 'NETLIFY'].includes(key))
+        : Object.keys(process.env).some(key => ['VERCEL', 'NETLIFY', 'CLOUDFLARE'].includes(key))
           ? adapter['auto']
-          : adapter['static'],
+          //: adapter['static'],
+          : adapter['auto'],
     prerender: {
       handleMissingId: 'warn'
     },

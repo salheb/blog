@@ -18,5 +18,5 @@ With a solid academic foundation in Computer Science and ongoing studies in Soci
 ## Contacts
  - [LinkedIn](https://www.linkedin.com/in/juliocesarsn/)
  - [Twitter](https://x.com/salheb)
- - [YouTube](www.youtube.com/@juliotech)
+ - [YouTube](https://www.youtube.com/@juliotech)
  - **E-mail:** [me@julionogueira.net](mailto:me@julionogueira.net)

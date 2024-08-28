@@ -12,6 +12,7 @@ interface ImportMeta {
   readonly env: ImportMetaEnv
 }
 
+
 declare global {
   namespace Urara {
     namespace Post {
@@ -86,6 +87,15 @@ declare global {
           }
         }
         metadata: Frontmatter
+      }
+      interface Platform {
+        env: {
+            COUNTER: DurableObjectNamespace;
+        };
+        context: {
+            waitUntil(promise: Promise<any>): void;
+        };
+        caches: CacheStorage & { default: Cache }
       }
     }
     type Post = Post.Frontmatter & { html?: string }
