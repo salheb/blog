@@ -6,7 +6,7 @@ export const site: SiteConfig = {
   title: 'Julio Nogueira',
   subtitle: 'Tech and science',
   lang: 'en-US',
-  description: 'Powered by Julio N.',
+  description: 'Learning experience archive.',
   author: {
     avatar: '/assets/julio.jpg',
     name: 'Julio Nogueira',

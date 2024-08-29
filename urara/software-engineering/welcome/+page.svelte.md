@@ -8,6 +8,7 @@ published: 2024-08-26
 tags:
   - 'misc'
   - 'software-engineering'
+type: note
 ---
 
 I'm proudly announcing my...

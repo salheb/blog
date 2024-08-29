@@ -6,6 +6,7 @@ tags:
   - 'software-engineering'
   - 'social-sciences'
   - 'misc'
+type: article
 ---
 
 ## The Problem
