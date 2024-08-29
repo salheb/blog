@@ -8,7 +8,7 @@ export const site: SiteConfig = {
   lang: 'en-US',
   description: 'Powered by Julio N.',
   author: {
-    avatar: 'https://media.licdn.com/dms/image/v2/D4D03AQGDsSsCgfh8HA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1719843737453?e=1730332800&v=beta&t=xeSGlnz2yr44l-98TqoZjP15X3-kVbu79CCLH0IwHqo',
+    avatar: '/assets/julio.jpg',
     name: 'Julio Nogueira',
     status: '💻',
     bio: 'Software engineering manager and tech enthusiast.'
