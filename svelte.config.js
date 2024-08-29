@@ -2,6 +2,7 @@
 import adapterAuto from '@sveltejs/adapter-auto'
 import adapterNode from '@sveltejs/adapter-node'
 import adapterStatic from '@sveltejs/adapter-static'
+import adapterCloudflare from '@sveltejs/adapter-cloudflare'
 // svelte preprocessor
 import { mdsvex } from 'mdsvex'
 import mdsvexConfig from './mdsvex.config.js'
@@ -14,7 +15,8 @@ const adapter = {
     pages: 'build',
     assets: 'build',
     fallback: undefined
-  })
+  }),
+  cloudflare: adapterCloudflare()
 }
 
 /** @type {import("@svletejs/kit".Config)} */
@@ -22,12 +24,12 @@ export default {
   extensions: ['.svelte', ...mdsvexConfig.extensions],
   preprocess: [mdsvex(mdsvexConfig), vitePreprocess()],
   kit: {
-    adapter:
-      process.env.ADAPTER
+    adapter: adapter['cloudflare'],
+      /*process.env.ADAPTER
         ? adapter[process.env.ADAPTER.toLowerCase()]
         : Object.keys(process.env).some(key => ['VERCEL', 'NETLIFY', 'CLOUDFLARE'].includes(key))
           ? adapter['auto']
-          : adapter['static'],          
+          : adapter['static'],          */
     prerender: {
       handleMissingId: 'warn'
     },
