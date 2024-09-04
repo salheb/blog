@@ -43,6 +43,6 @@ According to Shabatura (2022), below are the levels of Bloom's Taxonomy and a br
 
 Classifying the depth of knowledge absorption is an important tool to allow for the prioritization of the knowledge areas to be improved in the IDP, focusing on individual gaps. It is also important to consider that when prioritizing the skills and knowledge to develop, one should take into account market demands and those of the current employer, in order to create a prioritization that makes sense in the short and medium term.
 
-## Conclusion
+## References
 
 Armstrong, P. (2010). Bloom’s Taxonomy. Vanderbilt University Center for Teaching. Retrieved 04/09/2024 from https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/.
